@@ -42,8 +42,6 @@ ol {
   grid-template-columns: 711px 399px;
   justify-items: center;
   align-items: end;
-  justify-content: center;
-  align-content: center;
   gap: 30px;
   width: 100%;
   padding: 133px 30px;
@@ -59,6 +57,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
+  inset: 0;
 }
 
 .result__video {
@@ -73,6 +72,7 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
+  inset: 0;
 }
 
 .search-form__fieldset {
@@ -198,6 +198,7 @@ ol {
 .search-form__submit-button {
   position: relative;
   top: 20px;
+  left: 0;
   width: 194px;
 }
 
@@ -226,6 +227,7 @@ ol {
   position: relative;
   max-height: 298px;
   overflow: auto;
+  inset: 0;
 }
 
 .content__list-item {
