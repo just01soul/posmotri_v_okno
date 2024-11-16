@@ -242,7 +242,6 @@ ol {
   max-height: 298px;
   overflow: auto;
   inset: 0;
-  width: inherit;
 }
 
 .content__list-item:not(:last-child) {
